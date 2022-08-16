@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b9bc3409b2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="cvv.css" />
+    <title>cv.en ligne</title>
+</head>
+<body>
+     <div class="wrapper">
+         <div class="resume"><!--la partie cv-->
+             <div class="left"><!--la partie nav-->
+                 <div class="img_holder"><!--la class de image-->
+                     <img  onmouseover="expand(imag)" onmouseout="shrink(imag)"  id="imag" src="mn.jpeg"><!--mon image-->
+                 </div>
+                 <div class="contact_wrap pb"><!--la classe de mon identite -->
+                     <div class="title">
+                         contact
+                     </div>
+                     <div class="contact">
+                         <ul>
+                             <li>
+                                 <div class="li_wrap">
+                                     <div class="icone">
+                                        <i class="fas fa-user-alt"></i>  
+                                     </div>
+                                     <div class="text">your name</div>
+                                 </div>
+                             </li>
+                             <li>
+                                <div class="li_wrap">
+                                    <div class="icone">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="text">your-email@gmail.com</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="icone">
+                                        <i class="fas fa-phone-square-alt"></i>
+                                    </div>
+                                    <div class="text">66788889999</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="icone">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="text">algeria algeria</div>
+                                </div>
+                            </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+             <div class="right">
+                <div class="header"><!--cette classe contient le titre principale ainsi que petit paragraph -->
+                    <div class="titre_name"><!--la class de grand titre-->
+                       <div class="name">
+                           Curriculum Vitae
+                       </div>
+                       
+                    </div>
+                    <div class="about">
+                        Ce present CV resume mon profile personnel, vous trouvez 
+                        dans mes aptitudes et mes competences 
+                        proffesionnelles ainsi que mon parcours educatif.
+                        vous trouverez ci-joint egalement mes coordonnees personnelles.
+                    </div> 
+                </div>
+                <div class="right_inner"><!--la partie section d'affichage-->
+                    <iframe src="demo_iframe.html" name="iframe_a" height="650px" width="100%" title="Iframe example"></iframe><!--a l'aide de ce lien, on peut afficher les trois pages sur la partie section -->
+                    <div class="container"><!--cette classe contient les trois liens qui nous achuminent vers les autres pages-->
+                        <li><a href="experiencee.html" target="iframe_a" class="cool-link">Experiance</a></li>
+                        <li><a href="competencee.html" target="iframe_a" class="cool-link">Competence</a></li>
+                        <li><a href="formation.html" target="iframe_a" class="cool-link">Formation</a></li>
+                    </div>  
+                </div> 
+                <div class="footer"><!--cette classe  montre les langues pratiquees-->
+                    <div class="tolist">
+                        <div class="langues">
+                            <div class="langues_titre"><h2>les langues</h2></div>
+                            <div class="langues_text">
+                                <ul class="lng">
+                                    <li>Arabe</li>
+                                    <li>Anglais</li>
+                                    <li>Francais</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="intret">
+                            <div class="intret_titre"><h2>Les centres d'interet</h2></div>
+                            <div class="intret_text">
+                                <ul class="int">
+                                    <li>conception des pages web</li>
+                                    <li>infographie</li>
+                                    <li>freelancing</li>
+                                    <li>web documention</li>
+                                </ul>   
+                           </div>
+                        </div>
+                   </div>
+                </div>
+           </div>
+        </div>
+<script src="cv.js"></script>    
+</body>
+</html>
